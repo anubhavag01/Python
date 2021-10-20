@@ -5,3 +5,9 @@ score=0
 height=1.8
 isWinning = True
 print(f"Your score is {score}, your height is {height}, you are winning is {isWinning}")
+
+
+#round the number to two decimal places
+amount = round(bill,2)
+Convert the above amount from float to string. 2f means two decimal places and it will show zero also if there is one decimal only too.
+amount = "{:.2f}".format(bill)
